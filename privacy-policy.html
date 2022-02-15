@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Noah & Co Chartered Certified Accountants</title>
+    <title>Noah Chartered Certified Accountants</title>
+    <script src="//www.w3schools.com/lib/w3data.js"></script>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta charset="UTF-8">
@@ -27,49 +28,8 @@
 </head>
 <body>
     <div id="wrapper">
-        <!-- start header -->
-        <header>
-            <div id="callout">
-                <p><i class="fa fa-phone"></i> <a href="tel:02034419499">02034419499</a></p>
-                <p><i class="fa fa-envelope"></i> info@noahaccountants.co.uk</p>
-            </div>
-            <div id="logo">
-                <a href="/"><img src="img/logo.png" /></a>
-            </div>
-        </header>
-        <!-- end header -->
-        <div class="clearfix"></div>
-        <!-- start nav -->
-        <div class="nav-wrap" id="myHeader">
-            <nav class="navigation">
-                <div class="nav" nav-menu-style="yoga">
-                    <ul class="nav-menu" id="menu">
-                        <li><a href="/" class="active"> Home </a> </li>
-                        <li><a href="why-choose-us"> Why Choose Us</a> </li>
-                        <li><a href="our-clients"> Our Clients </a> </li>
-                        <li><a href="our-services"> Our Services </a> </li>
-                        <li><a href="contact-us"> Contact Us</a> </li>
-                        <li><a href="resources"> Resources</a> </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <!-- end nav -->
-
-        <script>
-        window.onscroll = function() {myFunction()};
-
-        var header = document.getElementById("myHeader");
-        var sticky = header.offsetTop;
-
-        function myFunction() {
-        if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-        } else {
-            header.classList.remove("sticky");
-        }
-        }
-        </script>
+        <div w3-include-html="includes/header.html"></div>
+        
         <!-- Start Banner wrapper #F44336 -->
         <div class="w3-container w3-padding" id="myHeader" >
             <div class="w3-center">
@@ -96,45 +56,9 @@
             
         </section>
 
-        <div class="clearfix"> </div>
-        <!-- Start Footer -->
-        <footer>
-            <div class="one-third left">
-                <h3>Contact Us</h3>
-                <p class="footercontact">
-                    <i class="fa fa-link"></i><a href="/">https://www.noahaccountants.co.uk/</a><br />
-                    <i class="fa fa-envelope"></i><a href="mailto:info@noahaccountants.co.uk">info@noahaccountants.co.uk</a><br />
-                    <i class="fa fa-phone"></i> <a href="tel:02034419499">02034419499</a>
-                </p>
-            </div>
-            <div class="one-third">
-                <h3>Noah Accountants</h3>
-                
-                <p class="footercontact">
-                    We are firm of Chartered Certified Accountants collective experience.
-                </p>
-
-                <ul class="social">
-                    <li><a href="/contact-us"> <i class="fa fa-facebook"></i> </a></li>
-                    <li><a href="/contact-us"> <i class="fa fa-google-plus"></i> </a></li>
-                    <li><a href="/contact-us"> <i class="fa fa-twitter"></i> </a></li>
-                    <li><a href="/contact-us"> <i class="fa fa-youtube"></i> </a></li>
-                    
-                </ul>
-            </div>
-            <div class="one-third">
-                <h3>Certified Accountants</h3>
-                <p class="footercontact">
-                    <img src="img/acca-logo.png" style="width: 100px;" alt="acca"><br>
-                    <a href="/privacy-policy">Privacy Policy</a>
-                </p>
-            </div>
-        </footer>
-        <!-- End Footer -->
-        <div id="copyRightContainer">
-            <p class="copyRightText">&copy; Copyright 2022 Noah & CO, UK, all rights reserved.</p>
-        </div>
+        <div w3-include-html="includes/footer.html"></div>
     </div>
+    <script>w3IncludeHTML();</script>
 </body>
 </html>
 
