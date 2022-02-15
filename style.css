@@ -571,6 +571,7 @@ overflow: auto;
 footer h3 {
     text-decoration: none;
     color: #fff;
+    font-size: 18px;
 }
 
 footer p {
@@ -591,13 +592,13 @@ footer p {
 .footercontact i {
     color: #fff;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 120%;
     padding: 1.5%;
 }
 
 .social {
 list-style-type: none;
-margin: 3% 0;
+margin: 0;
 padding: 0;
 }
 
@@ -607,7 +608,7 @@ padding: 0;
 
 .social i {
     color: #fff;
-    font-size: 195%;
+    font-size: 120%;
     padding: 3%;
 }
 
@@ -819,10 +820,10 @@ img {
 }
 
 .social i {
-    font-size: 175%;
+    font-size: 120%;
 }
 .footercontact i {
-	font-size: 175%;
+	font-size: 120%;
 }
 .footercontact {
 	width: 95%;
