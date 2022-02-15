@@ -1,9 +1,3 @@
-//  Add active menu item
-function handlePreloader() {
-	var path = window.location.pathname;
-	console.log("The path is ", path);
-	$('#menu li a[href = "' + path + '" ]').parent().addClass("active");
-}
 function responsiveMobileMenu() {
 	$('.nav').each(function() {
 
