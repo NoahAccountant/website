@@ -25,26 +25,89 @@
     <script src="js/main.js"></script> <!--- For Navigation -->
     <!--- End Navigation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div id="wrapper">
         <div w3-include-html="includes/header.html"></div>
 
-        <!-- Start Banner wrapper #F44336 -->
         <div class="w3-container w3-padding" id="myHeader" >
-            <!-- <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i>  -->
             <div class="w3-center">
             <h4 class="w3-large w3-animate-zoom">Our company is a collective of amazing people to help you build your business.</h4>
-            <h4 class="w3-small w3-animate-bottom">We are firm of Chartered Certified Accountants with collective experience of 15 years in the field. We help people to create value for their business. We work closely with our clients and act for board range of business and personal clients. We appreciate that only in time can we gain your trust, so that you know when we say we can and will do something, we do it. We hope to get that opportunity.</h5>
-                <div class="w3-padding-32">
-                <a href="/our-services"><button class="w3-btn w3-xlarge w3-black w3-hover-light-grey" style="font-weight:900;">Our services</button></a>
+            <h4 class="w3-small w3-animate-bottom">We are firm of Chartered Certified Accountants with collective experience of 15 years in the field. We help people to create value for their business. We work closely with our clients and act for board range of business and personal clients. We appreciate that only in time can we gain your trust, so that you know when we say we can and will do something, we do it. We hope to get that opportunity.</h4>
+            <div class="w3-padding-32">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <!-- <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                        <li data-target="#myCarousel" data-slide-to="7"></li>
+                      </ol> -->
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <a href="/our-services"><button class="w3-btn w3-hover-light-grey">Bookkeeping and accounting</button></a>
+                      </div>
+                      <div class="item">
+                        <a href="/our-services"><button class="w3-btn w3-hover-light-grey">Management accounts</button></a>
+                      </div>
+                      <div class="item">
+                        <a href="/our-services"><button class="w3-btn w3-hover-light-grey">Business planning</button></a>
+                      </div>
+                      <div class="item">
+                        <a href="/our-services"><button class="w3-btn w3-hover-light-grey">Business start-up</button></a>
+                      </div>
+                      <div class="item">
+                        <a href="/our-services"><button class="w3-btn w3-hover-light-grey">Capital gain tax</button></a>
+                      </div>
+                      <div class="item">
+                        <a href="/our-services"><button class="w3-btn w3-hover-light-grey">Corporation tax planning</button></a>
+                      </div>
+                      <div class="item">
+                        <a href="/our-services"><button class="w3-btn w3-hover-light-grey">Payroll</button></a>
+                      </div>
+                      <div class="item">
+                        <a href="/our-services"><button class="w3-btn w3-hover-light-grey">Tax planning</button></a>
+                      </div>
+                    </div>
+                
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
+            </div>
         </div>
-        
+
         <div w3-include-html="includes/footer.html"></div>
     </div>
     <script>w3IncludeHTML();</script>
+    
+    <style>
+        .carousel.slide {
+            width: 100%;
+            text-align: center;
+        }
+        .w3-btn {
+            border: 2px solid;
+            border-color: white;
+            color: white;
+        }
+    </style>
 </body>
 </html>
 
