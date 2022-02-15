@@ -632,6 +632,7 @@ overflow: hidden;
 
 #copyRightContainer {
     background-color: #f6f6f6;
+    font-size: 14px;
 }
 
 .copyRightText {
@@ -842,6 +843,11 @@ img {
 .row ul {
     padding: 0% 0% 2% 5%;
     color: #000;
+}
+
+#copyRightContainer {
+    background-color: #f6f6f6;
+    font-size: 14px;
 }
 
 .w3-large {font-size: 30px !important; font-weight: 600; color: #fff; line-height: 1.4em; font-family: "Montserrat", Sans-serif; margin-top: 5%;}
