@@ -156,6 +156,7 @@ body .nav .nav-menu li a {
     color: #f6f6f6;
     font-size: 18px;
     font-weight: 700;
+    text-decoration: none !important;
 }
 
 .nav.yoga .nav-menu li a.active {
@@ -252,6 +253,7 @@ line-height: 25px;
 text-align: center;
 overflow: visible;
 min-height: 56px;
+margin-bottom: 0;
 }
 
 .nav .nav-menu li {
